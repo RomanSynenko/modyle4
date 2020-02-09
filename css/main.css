@@ -1,0 +1,258 @@
+html{
+    box-sizing: border-box;
+}
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+*{
+    font-family: 'Lato', sans-serif;
+    color: #0f0101;
+    margin: 0px;
+    font-size: 14px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    align-self: center;
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo {
+    margin-top: 34px;
+    font-size: 30px;
+    float: left;
+}
+.logo::first-letter {
+    color: #1abc9c;
+    font-weight: 600;
+}
+.page_header {
+    text-transform: uppercase;
+}
+.menu{
+    float: right;
+    list-style: none;
+}
+.menu li{
+    margin-right: 28px;
+    float: left;
+    margin-top: 42px;
+}
+.menu-item:last-child {
+    margin-right: 0px;
+}
+.cards_item:nth-child(4n) {
+    margin-bottom: 0px;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #1abc9c;
+}
+.menu_cards {
+    display: block;
+}
+/*header*/
+/*cards*/
+.cards {
+    display: block;
+}
+.titleh2 {
+    color: #515151;
+    font-weight: 100;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 110px;
+}
+.titleh {
+    margin-top: 104px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.menu_cards {
+    list-style: none;
+    float: left;
+}
+.menu_cards_one {
+    list-style: none;
+    float: left;
+}
+.menu_cards_one li{
+    margin-bottom: 104px;
+    margin-right: 28px;
+    float: left;
+    cursor: pointer;
+}
+.menu_cards li {
+    margin-bottom: 30px;
+    margin-right: 28px;
+    float: left;
+    cursor: pointer;
+}
+.cards_item:nth-child(n+4) {
+    margin-right: 0px;
+}
+/*foto8*/
+.foto8 {
+    position: absolute;
+    margin: 96px 10px;
+    border: 0px;
+    width: 254px;
+    height: 280px;
+}
+/*foto8*/
+.cards {
+    background-color:#e9f0fd;
+    position: relative;
+    width: 254px;
+    height: 322px;
+    font-size: 18px;
+}
+.card-buttom {
+    font-size: 18px;
+    position: absolute;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    left: 0px;
+    bottom: 0px;
+    width: 254px;
+    height: 40px;
+}
+.cards_price {
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+}
+.cards_text {
+    height: 40px;
+    padding: 14px 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.cards_text_box {
+    width: 200px;
+    height: 40px;
+    background-color: #323232;
+}
+.cards_price {
+    border: 0px;
+    padding: 12px 16px;
+    right: 0px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8c8c8c;
+}
+/*hover*/
+.cards:hover .cards_text{
+    background-color: #1abc9c;
+    transition: all .3s linear;
+}
+.cards:hover .cards_price{
+    background-color: #7fd9c7;
+    transition: all .3s linear;
+}
+.foto8 {}
+/*hover*/
+/*cards*/
+/*LATEST NEWS*/
+.latest_list {
+    margin: 0px auto;
+    list-style: none;
+}
+.latest_list_item {
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+}
+.latest_news {
+    float: left;
+}
+.foto_text_one {
+    line-height: 1.8;
+    margin-top: 30px;
+}
+.latest_news_foto_info {
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+/*LATEST NEWS*/
+/*line*/
+.fist_line::after {
+    display: block;
+    width: 164px;
+    height: 8px;
+    background-color: #1abc9c;
+    content: '';
+    margin: 0px auto;
+    margin-top: 34px;
+    margin-bottom: 92px;
+}
+.fist_line_one::after {
+    display: block;
+    width: 164px;
+    height: 8px;
+    background-color: #1abc9c;
+    content: '';
+    margin: 0px auto;
+    margin-top: 34px;
+    margin-bottom: 80px;
+}
+.second_line::after {
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    content: '';
+    margin: 0px 0px;
+    margin-top: 14px;
+}
+/*line*/
+/*button*/
+.button {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: none;
+    height: 50px;
+    width: 160px;
+    border: 1px;
+    margin-top: 16px;
+}
+.buttom {
+    padding: 16px;
+    background-color: #1abc9c;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 18px;
+}
+.buttom:hover,
+.buttom:focus {
+    color: #000000;
+    cursor: pointer;
+}
+/*button*/
+/*footer*/
+.footer {
+    width: 1110px;
+    height: 80px;
+}
+/*footer*/
